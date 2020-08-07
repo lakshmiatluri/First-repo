@@ -4,7 +4,7 @@ provider "aws"{
     secret_key = "vP+v0NZyJJ/IpEPyuGUE+kSbY+WGlhAZCW1IfVmL"
 
 }
-resource "aws_s3_bucket" "uid" {
+resource "aws_s3_bucket" "bucket" {
   bucket = "my-tf-test-bucket89900"
   acl    = "private"
 
